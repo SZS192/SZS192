@@ -3,15 +3,15 @@ p {
     color: red;
 }
 #header {
-    color: green
+    color: black
 }
 body{
-    background: blue;
+    background: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 .about {
     text-align: center;
-    color: blue;
+    color: black;
 }
 
 .left {
@@ -22,4 +22,5 @@ body{
 }
 .attention {
     font-weight: bold;
+
 }
