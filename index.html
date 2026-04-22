@@ -22,6 +22,16 @@
   .project-card { border: 1px solid #eaeaea; border-radius: 8px; padding: 15px; text-align: center; background: #fafafa; }
   .project-card img { width: 100%; max-height: 300px; object-fit: contain;  border-radius: 4px;  margin-bottom: 10px; }
   .contact-links a { display: block; margin: 15px 0; color: #2980b9; text-decoration: none; font-size: 1.1rem; }
+  .persona-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.persona-grid img {
+  width: 100%;
+  border-radius: 4px;
+}
 </style>
 </head>
 <body>
@@ -64,7 +74,17 @@
       </div>
       <div class="project-card">
         <h3><a href="#">[Project Title 2]</a></h3>
-        <a href="files/project2.png" target="_blank"><img src="files/project2.png" alt="Project 2"></a>
+        <div class="persona-grid">
+  <a href="files/persona1.png" target="_blank">
+    <img src="files/persona1.png" alt="Persona 1">
+  </a>
+  <a href="files/persona2.png" target="_blank">
+    <img src="files/persona2.png" alt="Persona 2">
+  </a>
+  <a href="files/persona3.png" target="_blank">
+    <img src="files/persona3.png" alt="Persona 3">
+  </a>
+</div>
         <p>I interviewed college students to gather their opinions on our Calorie Tracking App and to understand what types of users would benefit from it.</p>
       </div>
     </div>
